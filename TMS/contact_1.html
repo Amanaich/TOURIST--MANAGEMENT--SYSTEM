@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=PT+Serif:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
+
+        * {
+            font-family:sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;    
+            outline: none;
+            border: none;
+            text-decoration: none;    
+        }
+
+        html {
+            font-size: 62.5%; /* 1rem = 10px */
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            background: #111;
+            color: #fff;
+            position: relative;
+        }
+
+        header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #616569;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+
+header .logo{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: serif;
+    margin-left: -100px;
+}
+
+header .logo span{
+    color:white;
+    font-size: 7rem;
+    font-family: serif;
+    
+}
+
+header .navbar a{
+    color: white;
+    font-size: 2.5rem;
+    margin: 0 .8rem;
+    font-family: serif;
+  position: relative;
+  left:100px;
+    
+}
+header .navbar a:hover{
+    color: #ffa500;
+}
+
+
+
+.btn{
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background: purple;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bolder;
+   
+    
+}
+
+
+        .home {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 6rem; /* space for fixed header */
+        }
+
+        .content {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 2rem 3rem; /* Reduced padding to make the page smaller */
+            width: 90%;
+            max-width: 600px; /* Reduced the form width for a smaller layout */
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            backdrop-filter: blur(8px);
+        }
+
+        .content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .content h3 {
+            font-size: 1.6rem;
+            color: #fff;
+            margin-bottom: 2rem;
+        }
+
+        .content p {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .input-box {
+            margin-bottom: 1.5rem; /* Reduced margin between inputs */
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 1rem;
+            background: #222;
+            border: 2px solid #444;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 1.6rem;
+            margin-top: 0.8rem;
+            transition: border-color 0.3s;
+        }
+
+        .input-box input:focus {
+            border-color: #fff; /* Changed to white focus color */
+        }
+
+        .input-box input::placeholder {
+            color: #bbb;
+        }
+
+        /* Submit Button Styling */
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: #fff; /* Changed button color to white */
+            border-radius: 8px;
+            color: #111; /* Text color now dark */
+            font-size: 1.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 1rem;
+        }
+
+        .submit-btn:hover {
+            background: #f1f1f1; /* Slight gray on hover */
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header .logo {
+                font-size: 2rem;
+            }
+
+            header .navbar a {
+                font-size: 1.4rem;
+                margin: 0 1rem;
+            }
+
+            .content {
+                width: 90%;
+                padding: 1.5rem;
+            }
+
+            .content h1 {
+                font-size: 2.2rem;
+            }
+
+            .content h3 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><span>N</span>OMAD</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html"><button class="btn">Log In</button></a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <form action="contact" method="post">
+                <h1>Contact Us</h1>
+                <h3>Your Direct Connection to Extraordinary Adventures</h3>
+                <p>We value your inquiries and are thrilled to assist you in any way possible. Whether you have questions about our travel packages, need assistance with booking, or simply want to share your travel aspirations, we're here for you. Connect with us through the following channels and let the journey begin!</p>
+                <br>
+                <h3>Customer Support</h3>
+                <p>Our dedicated customer support team is available around the clock to address your queries and provide assistance. Feel free to reach out to us via email or phone.</p>
+                <p>E-Mail: <a href="mailto:amananshumanaich@gmail.com">amananshumanaich@gmail.com</a></p>
+                <p>Contact Number: <a href="tel:+919668817983">+91 96688 17983</a></p>
+
+                <div class="input-box">
+                    <input type="text" name="t1" placeholder="Enter Your Name" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="t2" placeholder="Enter Your Mobile Number" required>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="t3" placeholder="Enter Your E-Mail" required>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+
+        <div class="video-container">
+            <video src="bg.mp4" loop autoplay muted></video>
+        </div>
+    </section>
+
+</body>
+</html>

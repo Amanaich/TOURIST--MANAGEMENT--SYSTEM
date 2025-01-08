@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Delete Account</title>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=PT+Serif:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
+
+body {
+            margin: 0;
+            padding: 0;
+            font-family:serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('bg.mp4') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+        
+        
+        input[type="text"] {
+            width: 100%;
+    height: 100%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #333;
+    padding: 20px 45px 20px 20px;
+    font-weight: bold;
+        }
+
+        input[type="submit"] {
+            width: 80%;
+    height: 100%;
+    background: #000000;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, .2);
+    border-radius: 40px;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .video-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+
+</style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="dlt" method="POST">
+           
+            <input type="text"  name="t1" placeholder="Email" required >
+            <input type="submit" value="Delete Account">
+            <div class="video-container">
+            <video src=bg.mp4 id="video-slider" loop autoplay muted></video>
+        </div>
+        </form>
+    </body>
+</html>
