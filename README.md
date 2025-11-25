@@ -1,1 +1,1 @@
-# MINOR-PROJECT
+Tourist Management system 
