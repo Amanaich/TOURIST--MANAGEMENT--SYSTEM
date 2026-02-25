@@ -1,44 +1,13 @@
 # 🌍 Tourist Management System
 
-<div align="center">
 
-![Tourist Management System](https://capsule-render.vercel.app/api?type=waving&color=0:16A34A,100:00f2fe&height=180&section=header&text=Tourist%20Management%20System&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Java%20%7C%20JSP%20%7C%20Servlet%20%7C%20MySQL&descAlignY=58&descSize=18)
 
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://java.com)
-[![JSP](https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=java&logoColor=white)](https://jakarta.ee)
-[![Servlet](https://img.shields.io/badge/Servlet-5382A1?style=for-the-badge&logo=java&logoColor=white)](https://jakarta.ee)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org)
-
-![Stars](https://img.shields.io/github/stars/Amanaich/TOURIST.MANAGEMENT.SYSTEM?style=flat-square&color=16A34A)
-![Forks](https://img.shields.io/github/forks/Amanaich/TOURIST.MANAGEMENT.SYSTEM?style=flat-square&color=00f2fe)
-![Last Commit](https://img.shields.io/github/last-commit/Amanaich/TOURIST.MANAGEMENT.SYSTEM?style=flat-square&color=1A56DB)
-
-</div>
-
----
-
-## 📋 Table of Contents
-
-- [About the Project](#-about-the-project)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Database Setup](#-database-setup)
-- [Screenshots](#-screenshots)
-- [Author](#-author)
-
----
 
 ## 🧭 About the Project
 
 A full-stack **Tourist Management System** built with Java EE (JSP/Servlet) and MySQL. This web application allows tourists to register and log in to explore travel services, while administrators can manage the entire platform from a dedicated admin panel.
 
-> Built as a part of academic/personal project demonstrating full-stack Java web development with MVC architecture.
 
----
 
 ## ✨ Features
 
@@ -106,11 +75,6 @@ TOURIST.MANAGEMENT.SYSTEM/
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have these installed:
 
 - ☕ [Java JDK 8+](https://www.oracle.com/java/technologies/downloads/)
 - 🐱 [Apache Tomcat 9+](https://tomcat.apache.org/download-90.cgi)
@@ -196,54 +160,11 @@ CREATE TABLE admin (
 INSERT INTO admin (username, password) VALUES ('admin', 'admin123');
 ```
 
----
-
-## 📸 Screenshots
-
-> 📌 *Screenshots coming soon — add yours here!*
-
-| Page | Preview |
-|---|---|
-| 🏠 Home Page | *(Add screenshot)* |
-| 🔐 Login Page | *(Add screenshot)* |
-| 📝 Register Page | *(Add screenshot)* |
-| 🛠️ Admin Dashboard | *(Add screenshot)* |
-
-> **How to add screenshots:** Take screenshots of your running app → save as `.png` in a `/screenshots` folder → upload to the repo → replace the *(Add screenshot)* text with `![Login](screenshots/login.png)`
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] 💳 Payment gateway integration (Razorpay/PayPal)
-- [ ] 📧 Email confirmation on registration
-- [ ] 🔍 Search & filter tourist packages
-- [ ] 📱 Responsive mobile design
-- [ ] 🐳 Docker containerisation
-- [ ] ☁️ Deploy to AWS / Heroku
-
----
-
-## 👨‍💻 Author
-
-<div align="center">
 
 **Aman Anshuman Aich**
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Amanaich)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/amanaich)
 
 *Full Stack Developer | Java | Python | SAP ABAP | IoT*
 *📍 Bhubaneswar, Odisha, India*
 
-</div>
-
----
-
-<div align="center">
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:00f2fe,100:16A34A&height=100&section=footer)
-
-⭐ **If you found this project useful, please give it a star!** ⭐
 
 </div>
